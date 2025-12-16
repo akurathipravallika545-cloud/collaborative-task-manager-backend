@@ -8,8 +8,6 @@ It is built using **Node.js, Express, TypeScript, PostgreSQL, Prisma**, and **So
 ## 🌐 Live API
 
 - **Backend API URL:** https://<your-backend-url>.onrender.com  
-- **Frontend URL:** https://<your-frontend-url>.vercel.app  
-
 ---
 
 ## 🛠 Tech Stack
@@ -133,7 +131,7 @@ Environment Variables
 Create a .env file in the root directory:
 DATABASE_URL=postgresql://...
 JWT_SECRET=your_jwt_secret
-CLIENT_URL=https://<your-frontend-url>.vercel.app
+CLIENT_URL=https://<https://github.com/akurathipravallika545-cloud/collaborative-task-manager-frontend>.vercel.app
 📈 Trade-offs & Assumptions
 JWT authentication used instead of server-side sessions
 Role-based access control not implemented (not required)
