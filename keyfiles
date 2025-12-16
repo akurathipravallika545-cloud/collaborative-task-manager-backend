@@ -1,0 +1,14 @@
+server.ts
+import http from "http";
+import app from "./app";
+import { initSocket } from "./socket";
+const server = http.createServer(app);
+initSocket(server);
+server.listen(4000, () => console.log("Server running on 4000"));
+task.service.ts
+export const createTask = async (data) => {
+if (new Date(data.dueDate) < new Date()) {
+throw new Error("Due date cannot be in the past");
+}
+return taskRepo.create(data);
+};
