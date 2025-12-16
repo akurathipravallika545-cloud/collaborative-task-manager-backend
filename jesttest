@@ -1,0 +1,4 @@
+test("should reject past due date", async () => {
+await expect(createTask({ dueDate: "2020-01-01" }))
+.rejects.toThrow();
+});
