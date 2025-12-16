@@ -1,0 +1,29 @@
+backend/
+├── prisma/
+│ └── schema.prisma
+├── src/
+│ ├── controllers/
+│ │ ├── auth.controller.ts
+│ │ └── task.controller.ts
+│ ├── services/
+│ │ ├── auth.service.ts
+│ │ └── task.service.ts
+│ ├── repositories/
+│ │ ├── user.repo.ts
+│ │ └── task.repo.ts
+│ ├── routes/
+│ │ ├── auth.routes.ts
+│ │ └── task.routes.ts
+│ ├── dtos/
+│ │ ├── auth.dto.ts
+│ │ └── task.dto.ts
+│ ├── middlewares/
+│ │ └── auth.middleware.ts
+│ ├── socket/
+│ │ └── index.ts
+│ ├── tests/
+│ │ └── task.service.test.ts
+│ ├── app.ts
+│ └── server.ts
+├── package.json
+└── tsconfig.json
